@@ -21,13 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${outfit.variable} h-full antialiased scroll-smooth`}
-    >
-      <body className="min-h-full flex flex-col font-sans bg-background text-foreground">
+    <html lang="en">
+      <body className={`${montserrat.variable} font-sans min-h-screen flex flex-col bg-background text-foreground`}>
         <Navbar />
-        <main className="flex-1 w-full pt-20">
+        <main className="flex-grow pt-20">
           {children}
         </main>
         <Footer />

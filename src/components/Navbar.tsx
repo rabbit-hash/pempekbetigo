@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -34,8 +35,8 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold tracking-tighter text-primary">
-          Pempek <span className="text-foreground">Betigo</span>
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.jpg" alt="Pempek Betigo Logo" width={200} height={60} className="h-12 md:h-16 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}
