@@ -57,7 +57,7 @@ export default function MenuPage() {
     <div className="bg-gray-50 min-h-screen py-12">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Our Full Menu</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Full Menu</h1>
           <p className="text-lg text-gray-600">
             Explore our authentic Palembang delicacies. Every item is freshly prepared with premium ingredients.
           </p>
@@ -79,7 +79,7 @@ export default function MenuPage() {
                     </div>
                     <div className="p-6 flex flex-col flex-1">
                       <div className="flex justify-between items-start mb-2">
-                        <h3 className="text-xl font-bold text-foreground">{item.name}</h3>
+                        <h3 className="text-xl font-bold text-gray-900">{item.name}</h3>
                       </div>
                       <p className="text-gray-500 mb-6 text-sm flex-1">{item.desc}</p>
                       <div className="flex justify-between items-center">
@@ -97,7 +97,7 @@ export default function MenuPage() {
         </div>
 
         <div className="mt-20 bg-primary/10 rounded-3xl p-8 md:p-12 text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-4">Ready to Order?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Order?</h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
             Get your favorite Pempek delivered straight to your door or book a table for dine-in.
           </p>

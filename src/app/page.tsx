@@ -100,7 +100,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12">
             <div className="max-w-2xl">
-              <h2 className="text-4xl font-bold text-foreground mb-4">Customer Favorites</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Customer Favorites</h2>
               <p className="text-gray-600 text-lg">Try our most loved dishes that keep our customers coming back.</p>
             </div>
             <Link href="/menu" className="mt-6 md:mt-0 text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-foreground">{item.name}</h3>
+                    <h3 className="text-xl font-bold text-gray-900">{item.name}</h3>
                   </div>
                   <p className="text-gray-500 mb-4 text-sm">{item.desc}</p>
                   <div className="flex justify-between items-center mt-auto">

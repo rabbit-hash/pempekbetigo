@@ -7,7 +7,7 @@ export default function ContactPage() {
     <div className="bg-gray-50 min-h-screen py-12">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Contact Us</h1>
           <p className="text-lg text-gray-600">
             We'd love to hear from you. Whether you have a question about our menu, pricing, or want to make a large order, our team is ready to answer all your questions.
           </p>
@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="flex flex-col lg:flex-row gap-12 max-w-5xl mx-auto">
           {/* Contact Form */}
           <div className="w-full lg:w-3/5 bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-            <h2 className="text-2xl font-bold text-foreground mb-8">Send us a Message</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Send us a Message</h2>
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
@@ -82,14 +82,14 @@ export default function ContactPage() {
                    <Clock className="text-primary" size={24} />
                 </div>
                 <div>
-                   <h4 className="font-semibold text-foreground mb-2">Opening Hours</h4>
+                   <h4 className="font-semibold text-gray-900 mb-2">Opening Hours</h4>
                    <div className="flex justify-between text-sm text-gray-600 mb-1">
                       <span>Monday - Friday:</span>
-                      <span className="font-medium text-foreground">08:00 - 22:00</span>
+                      <span className="font-medium text-gray-900">08:00 - 22:00</span>
                    </div>
                    <div className="flex justify-between text-sm text-gray-600 mb-1">
                       <span>Saturday - Sunday:</span>
-                      <span className="font-medium text-foreground">07:00 - 23:00</span>
+                      <span className="font-medium text-gray-900">07:00 - 23:00</span>
                    </div>
                    <p className="text-primary text-xs mt-3 font-medium">*We are open on public holidays</p>
                 </div>
