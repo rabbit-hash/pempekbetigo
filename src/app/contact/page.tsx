@@ -1,6 +1,7 @@
 "use client";
 
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
+import { LocationMap } from "@/components/LocationMap";
 
 export default function ContactPage() {
   return (
@@ -100,6 +101,10 @@ export default function ContactPage() {
              </div>
           </div>
         </div>
+      </div>
+
+      <div className="mt-12">
+        <LocationMap />
       </div>
     </div>
   );

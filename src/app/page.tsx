@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { LocationMap } from "@/components/LocationMap";
 import { ArrowRight, Star, Clock, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -136,6 +137,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Location Map Section */}
+      <LocationMap />
 
       {/* Parallax CTA Section */}
       <section className="relative py-32 flex items-center justify-center overflow-hidden">
