@@ -22,21 +22,20 @@ export default function AboutPage() {
             </div>
             
             <div className="w-full md:w-1/2">
-              <span className="text-primary font-semibold tracking-wider uppercase mb-2 block">The Heritage</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">A Legacy of Authentic Taste</h2>
+              <span className="text-primary font-semibold tracking-wider uppercase mb-2 block">Sejarah Kami</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Berdiri Sejak 2019</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Pempek Betigo started as a small family kitchen in Palembang. Our founder, Ibu Ratna, used a recipe that had been passed down from her grandmother, focusing strictly on quality and authentic flavor.
+                Pempek Betigo merupakan usaha kuliner yang berdiri sejak tahun 2019 dan berlokasi di Ruko JSquare No. 6–8, Komplek JCity Medan Johor, Kota Medan. 
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Over two decades later, we still use the exact same recipe. We never compromise on our ingredients, ensuring every bite takes you straight to the heart of South Sumatra.
+                Nama <strong className="text-gray-900">"Betigo"</strong> berasal dari kata <em>bertiga</em>, yang mencerminkan tiga pendiri utamanya. Didirikan karena melihat potensi pasar yang menjanjikan di kawasan strategis tersebut, kami menawarkan berbagai olahan pempek khas Palembang dengan cita rasa autentik.
               </p>
               
               <div className="space-y-4">
                 {[
-                  "100% Pure Tenggiri Fish (No Substitutes)",
-                  "Signature Cuko naturally brewed with Palm Sugar",
-                  "Made fresh daily without preservatives",
-                  "Authentic Palembang traditional methods"
+                  "Menyajikan Makanan Berkualitas",
+                  "Mempertahankan Cita Rasa Khas",
+                  "Memberikan Pelayanan Terbaik"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3">
                     <CheckCircle2 className="text-primary" size={24} />
@@ -49,18 +48,21 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Team Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 md:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12">Meet the Team Behind the Kitchen</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-             {[1,2,3,4].map((i) => (
-               <div key={i} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                  <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">
-                     {["🧑‍🍳", "👨‍🍳", "👩‍🍳", "👨‍🍳"][i-1]}
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Pendiri Kami</h2>
+          <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
+            Visi kami adalah menjadi restoran pempek yang terkenal dan menjadi pilihan utama masyarakat di Kota Medan.
+          </p>
+          <div className="flex flex-wrap justify-center gap-8">
+             {["Hendi Rukmana", "Hartono", "Apriyanto"].map((founder, i) => (
+               <div key={i} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center w-full max-w-[280px]">
+                  <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto mb-4 flex items-center justify-center text-4xl">
+                     {["👔", "💼", "📈"][i]}
                   </div>
-                  <h4 className="text-lg font-bold text-gray-900">Chef Master</h4>
-                  <p className="text-primary text-sm font-medium mb-3">Specialist</p>
-                  <p className="text-gray-500 text-sm">Dedicated to making the best quality pempek daily.</p>
+                  <h4 className="text-lg font-bold text-gray-900">{founder}</h4>
+                  <p className="text-primary text-sm font-medium mb-3">Co-Founder</p>
                </div>
              ))}
           </div>

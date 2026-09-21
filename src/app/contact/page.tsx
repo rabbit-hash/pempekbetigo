@@ -44,34 +44,38 @@ export default function ContactPage() {
 
           {/* Contact Information */}
           <div className="w-full lg:w-2/5 space-y-8">
-             <div className="bg-secondary text-white p-8 md:p-10 rounded-3xl shadow-sm">
-                <h3 className="text-xl font-bold mb-6">Contact Information</h3>
+             <div className="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-6">Store Information</h3>
                 <ul className="space-y-6">
-                  <li className="flex gap-4">
-                    <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-                      <MapPin className="text-primary" size={24} />
+                  <li className="flex gap-4 items-start">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                       <MapPin className="text-primary" size={24} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-white mb-1">Our Location</h4>
-                      <p className="text-gray-300 text-sm leading-relaxed">Jl. Pempek Asli No. 123<br />Palembang, South Sumatra<br />Indonesia</p>
+                       <h4 className="font-semibold text-gray-900 mb-1">Our Location</h4>
+                       <p className="text-gray-600 text-sm leading-relaxed">
+                         Ruko JSquare No. 6–8,<br />
+                         Komplek JCity Medan Johor,<br />
+                         Kota Medan
+                       </p>
                     </div>
                   </li>
-                  <li className="flex gap-4">
-                    <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                  <li className="flex gap-4 items-start">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
                       <Phone className="text-primary" size={24} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-white mb-1">Phone Number</h4>
-                      <p className="text-gray-300 text-sm leading-relaxed">+62 812 3456 7890<br />+62 711 1234 567</p>
+                      <h4 className="font-semibold text-gray-900 mb-1">Phone Number</h4>
+                      <p className="text-gray-600 text-sm leading-relaxed">+62 812 3456 7890<br />+62 711 1234 567</p>
                     </div>
                   </li>
-                  <li className="flex gap-4">
-                    <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                  <li className="flex gap-4 items-start">
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
                       <Mail className="text-primary" size={24} />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-white mb-1">Email Address</h4>
-                      <p className="text-gray-300 text-sm leading-relaxed">hello@pempekbetigo.com<br />orders@pempekbetigo.com</p>
+                      <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
+                      <p className="text-gray-600 text-sm leading-relaxed">hello@pempekbetigo.com<br />orders@pempekbetigo.com</p>
                     </div>
                   </li>
                 </ul>

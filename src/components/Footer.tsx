@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-4 text-gray-300">
               <li className="flex gap-3 items-start">
                 <MapPin className="text-primary shrink-0 mt-1" size={20} />
-                <span>Jl. Pempek Asli No. 123, Palembang, South Sumatra, Indonesia</span>
+                <span>Ruko JSquare No. 6–8, Komplek JCity Medan Johor, Kota Medan</span>
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="text-primary shrink-0" size={20} />
