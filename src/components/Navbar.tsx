@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center bg-white/95 backdrop-blur-sm p-1.5 rounded-2xl shadow-sm border border-white/20">
-          <img src="/logo.jpg" alt="Pempek Betigo Logo" className="h-10 md:h-12 w-auto object-contain rounded-xl" />
+          <img src="/logo.jpg" alt="Pempek Betigo Logo" className="h-10 md:h-12 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}
