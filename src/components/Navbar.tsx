@@ -28,18 +28,18 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-md py-3 border-b border-gray-800"
+          ? "bg-background/95 backdrop-blur-md shadow-2xl shadow-black/20 py-4 border-b border-white/10"
           : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className={`bg-white rounded-xl shadow-sm border border-white/20 transition-all duration-300 group-hover:scale-105 ${isScrolled ? 'p-1' : 'p-1.5'}`}>
+          <div className={`bg-white rounded-xl shadow-sm border border-white/20 transition-all duration-300 group-hover:scale-105 ${isScrolled ? 'p-1.5' : 'p-1.5'}`}>
             <img 
               src="/logo.jpg" 
               alt="Pempek Betigo Logo" 
-              className={`w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-8 md:h-10' : 'h-10 md:h-14'}`} 
+              className={`block w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-9 md:h-10' : 'h-10 md:h-14'}`} 
             />
           </div>
           <div className={`font-bold tracking-tighter transition-all duration-300 ${isScrolled ? 'text-xl md:text-2xl text-primary' : 'text-2xl md:text-3xl text-white'}`}>
