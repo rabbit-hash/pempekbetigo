@@ -29,7 +29,7 @@ export function LocationMap() {
             <div className="w-full h-full rounded-3xl overflow-hidden shadow-xl border border-gray-100 relative group">
               <iframe
                 src="https://maps.google.com/maps?q=Pempek%20Betigo%20JCity%20Medan&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                className="absolute inset-0 w-full h-full border-0 grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
+                className="absolute inset-0 w-full h-full border-0 transition-all duration-500"
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
