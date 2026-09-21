@@ -26,11 +26,17 @@ export function Navbar() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm py-3 transition-all duration-300 ease-in-out">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
+        isScrolled
+          ? "bg-background/80 backdrop-blur-md shadow-sm py-4"
+          : "bg-transparent py-6"
+      }`}
+    >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <img src="/logo.jpg" alt="Pempek Betigo Logo" className="h-16 md:h-20 w-auto object-contain rounded-xl" />
+        <Link href="/" className="flex items-center bg-white/95 backdrop-blur-sm p-1.5 rounded-2xl shadow-sm border border-white/20">
+          <img src="/logo.jpg" alt="Pempek Betigo Logo" className="h-10 md:h-12 w-auto object-contain rounded-xl" />
         </Link>
 
         {/* Desktop Nav */}
