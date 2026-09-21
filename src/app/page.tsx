@@ -64,9 +64,9 @@ export default function Home() {
           </div>
           
           <div className="relative w-full flex overflow-hidden group">
-            <div className="flex w-max animate-[marqueeRight_20s_linear_infinite] group-hover:[animation-play-state:paused]">
-              {[1, 2].map((set) => (
-                <div key={set} className="flex gap-8 px-4">
+            <div className="flex w-max gap-8 px-4 animate-[marqueeRight_40s_linear_infinite] hover:[animation-play-state:paused]">
+              {[1, 2, 3, 4].map((set) => (
+                <div key={set} className="flex gap-8 contents">
                   <div className="bg-white w-[350px] p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all flex-shrink-0">
                     <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">
                       <Star className="text-primary" size={32} />
