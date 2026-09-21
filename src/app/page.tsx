@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden -mt-20">
+      <section className="relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden -mt-20">
         <div className="absolute inset-0 z-0">
           {/* We use a solid color/gradient fallback with a decorative pattern since we don't have an image */}
           <div className="absolute inset-0 bg-gradient-to-br from-secondary to-gray-900 opacity-95"></div>
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/food.png')] opacity-10"></div>
         </div>
         
-        <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-12 pt-20">
+        <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-12 pt-32 pb-20">
           <div className="max-w-2xl text-center md:text-left">
             <span className="inline-block py-1 px-3 rounded-full bg-primary/20 text-primary border border-primary/30 text-sm font-semibold mb-6 tracking-wide uppercase">
               Berdiri Sejak 2019
