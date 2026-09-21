@@ -12,7 +12,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           {/* We use a solid color/gradient fallback with a decorative pattern since we don't have an image */}
           <div className="absolute inset-0 bg-gradient-to-br from-secondary to-gray-900 opacity-95"></div>
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/food.png')] opacity-10"></div>
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/food.png')] opacity-10 bg-fixed bg-center"></div>
         </div>
         
         <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-12 pt-32 pb-20">
@@ -134,6 +134,25 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Parallax CTA Section */}
+      <section className="relative py-32 flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          {/* Parallax Background */}
+          <div className="absolute inset-0 bg-secondary bg-[url('https://www.transparenttextures.com/patterns/food.png')] bg-fixed bg-center opacity-30"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/40"></div>
+        </div>
+        
+        <div className="container relative z-10 mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Craving for Pempek?</h2>
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            Experience the true taste of Palembang with our freshly made Pempek, delivered right to your table.
+          </p>
+          <Link href="/contact" className="inline-flex bg-primary hover:bg-primary-hover text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 items-center gap-3">
+            Visit Us Today <ArrowRight size={24} />
+          </Link>
         </div>
       </section>
     </>
