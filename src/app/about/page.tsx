@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 md:px-8 text-center max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Story</h1>
           <p className="text-lg text-gray-300 leading-relaxed">
-            From the heart of Palembang to your plate, Pempek Betigo has been serving authentic flavors and preserving culinary traditions since 1999.
+            From the heart of Medan to your plate, Pempek Betigo has been serving authentic flavors and preserving culinary traditions since 2019.
           </p>
         </div>
       </section>

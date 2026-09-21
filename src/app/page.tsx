@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container relative z-10 mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-12 pt-20">
           <div className="max-w-2xl text-center md:text-left">
             <span className="inline-block py-1 px-3 rounded-full bg-primary/20 text-primary border border-primary/30 text-sm font-semibold mb-6 tracking-wide uppercase">
-              Authentic Recipe since 1999
+              Berdiri Sejak 2019
             </span>
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6 tracking-tight">
               Taste the <span className="text-primary">Authentic</span> <br />
@@ -79,7 +79,7 @@ export default function Home() {
                       <ShieldCheck className="text-primary" size={32} />
                     </div>
                     <h3 className="text-2xl font-bold mb-3 text-gray-900">Authentic Recipe</h3>
-                    <p className="text-gray-600 leading-relaxed">Our secret Cuko recipe has been passed down for generations, balancing sweet, sour, and spicy perfectly.</p>
+                    <p className="text-gray-600 leading-relaxed">Cuko khas kami dibuat dengan keseimbangan rasa manis, asam, dan pedas yang sempurna.</p>
                   </div>
                   <div className="bg-white w-[350px] p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all flex-shrink-0">
                     <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">
