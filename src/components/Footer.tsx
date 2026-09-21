@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export function Footer() {
@@ -11,8 +10,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand Info */}
           <div className="col-span-1">
-            <Link href="/" className="inline-block mb-6 bg-white p-2 rounded-xl">
-              <Image src="/logo.jpg" alt="Pempek Betigo Logo" width={200} height={60} className="h-12 md:h-16 w-auto object-contain" />
+            <Link href="/" className="inline-flex items-center gap-3 mb-6 group">
+              <div className="bg-white p-1 rounded-xl">
+                <img src="/logo.jpg" alt="Pempek Betigo Logo" className="h-12 md:h-16 w-auto object-contain" />
+              </div>
+              <div className="text-3xl font-bold tracking-tighter text-white">
+                Pempek <span className="text-gray-300">Betigo</span>
+              </div>
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Authentic Palembang cuisine right at your doorstep. We use only premium ingredients to serve the best Pempek.
