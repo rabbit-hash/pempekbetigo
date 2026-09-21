@@ -67,7 +67,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Phone Number</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">+62 812 3456 7890<br />+62 711 1234 567</p>
+                      <p className="text-gray-600 text-sm leading-relaxed">+62 811-711-475 (Hendi)</p>
                     </div>
                   </li>
                   <li className="flex gap-4 items-start">
@@ -76,7 +76,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
-                      <p className="text-gray-600 text-sm leading-relaxed">hello@pempekbetigo.com<br />orders@pempekbetigo.com</p>
+                      <p className="text-gray-600 text-sm leading-relaxed">pempekbetigo333@gmail.com</p>
                     </div>
                   </li>
                 </ul>
@@ -89,12 +89,8 @@ export default function ContactPage() {
                 <div>
                    <h4 className="font-semibold text-gray-900 mb-2">Opening Hours</h4>
                    <div className="flex justify-between text-sm text-gray-600 mb-1">
-                      <span>Monday - Friday:</span>
-                      <span className="font-medium text-gray-900">08:00 - 22:00</span>
-                   </div>
-                   <div className="flex justify-between text-sm text-gray-600 mb-1">
-                      <span>Saturday - Sunday:</span>
-                      <span className="font-medium text-gray-900">07:00 - 23:00</span>
+                      <span>Setiap Hari:</span>
+                      <span className="font-medium text-gray-900">07:30 - 22:00</span>
                    </div>
                    <p className="text-primary text-xs mt-3 font-medium">*We are open on public holidays</p>
                 </div>

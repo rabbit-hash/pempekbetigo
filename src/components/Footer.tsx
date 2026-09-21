@@ -59,11 +59,11 @@ export function Footer() {
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="text-primary shrink-0" size={20} />
-                <span>+62 812 3456 7890</span>
+                <span>+62 811-711-475 (Hendi)</span>
               </li>
               <li className="flex gap-3 items-center">
                 <Mail className="text-primary shrink-0" size={20} />
-                <span>hello@pempekbetigo.com</span>
+                <span>pempekbetigo333@gmail.com</span>
               </li>
             </ul>
           </div>
